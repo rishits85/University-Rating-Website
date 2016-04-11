@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8"> 
+    <title>UniversityInspector.com</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--below is google fonts link. will be referenced in main.css so placed above it here-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <!--if we dont add this desktop layout rendered on mobile devices. this meta tag specifies that value of viewport should be set value of content attribute. content attribute says that the width should be scaled to the the width of mobile screen. Initial scale other than 1.0 will make it larger or smaller than required -->
+   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+ </head>
+ 
+ <body>
+   <header>
+    <h1 id="logo"><a href="index.html">UniversityInspector</a></h1>
+    <div class="topcorner">
+       <h5><a href="sign-in.html" class="overlayLink" data-action="sign-in.html">Sign in</a></h5>
+       <h5><a href="sign-up.html" class="overlayLink" data-action="sign-up.html">Sign up</a></h5>
+    </div>     
+   
+   <nav class=" nav">  
+     <ul id="navigation" style="" class="active">
+        <li style=""><a href="rating.html" style=""><h3 style="">REVIEW YOUR COLLEGE</h3></a></li>
+        <li style=""><a href="college-general.html" ><h3>SEE COLLEGES</h3></a></li>
+        <li style=""><a
+                       href="about-us.html" style=""><h3 style="">ABOUT US</h3></a></li>
+        <li style=""><a href="college-general.html" style=""><h3 style="">CONTACT US</h3></a></li>
+       
+  
+      </ul>
+      
+  <!--
+       <div id="sb-search" class="sb-search">
+    <form>
+      <input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
+      <input class="sb-search-submit" type="submit" value="">
+      <span class="sb-icon-search"></span>
+    </form>
+  </div>
+  
+  
+  -->
+         <!-- HTML for SEARCH BAR -->
+    
+        
+       <form id="tfnewsearch" method="get" action="http://port-80-974of3kn7i.treehouse-app.com" >
+              <select class="tftextinput" name="q"  maxlength="120">  <option value="select one">Search College</option>
+        <option value="bits-edu-campus-Varnama" id="bits">Bits edu campus Varnama</option>
+        <option value="parul-institute">Parul institute </option>
+        <option value="Ininfd-vadodara">Inifd vadodara </option>
+        <option value="Itm">Itm </option>
+        </select>
+         <input type="submit" value="search" class="tfbutton">
+      </form>
+    <div class="tfclear"></div>
+ </nav>
+ </header>
+
+   <img src="img/sw.jpg">
+   <div class="layout">
+      <img src="img/compare.png" class="body-icons">
+     <h1 class="large">Comparison</h1>
+  <table>
+      <thead>
+        <tr>
+          <th scope="col">Parameters</th>
+          <th scope="col">College1</th>
+          <th scope="col">College2</th>
+          <th scope="col">College3</th>
+          <th scope="col">College4</th>
+        </tr>
+      </thead>
+<!--
+      <tfoot>
+        <tr>
+          <td colspan="3">Data is updated every 15 minutes.</td>
+        </tr>
+      </tfoot>
+-->
+      <tbody>
+        <tr>
+          <th scope="row">Education</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Placements</th>
+           <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Infrastructure</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Food</th>
+           <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Faculties</th>
+           <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Cost</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Activities</th>
+           <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Management</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">Facilities</th>
+           <td>1</td>
+          <td>2</td>
+          <td>3</td>
+           <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="college-general.html" style="color:blue;"><h2>Back to listings</h2></a>
+   </div>
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script> 
+   </body>
+  </html>

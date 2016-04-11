@@ -1,0 +1,864 @@
+/**************************
+GENERAL
+****************************/
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header{z-index:100;}
+.bg1{
+  background-image:url('../img/students-jumping2.jpg');
+  max-width:100%;
+  background-repeat:no-repeat;
+  background-position:70% 25%;
+  
+}
+
+.translucent-black-background
+{
+  border-top: 2px solid orange;
+  background-color:rgba(0,0,0, 0.7);
+  width:100%; 
+}
+
+.bg1>h1
+{
+
+ padding-top:40px;
+  margin-bottom:70%; 
+}
+
+.translucent-black-background>h1
+{
+  padding-top:25px;
+  padding-bottom:25px;
+  color:white;
+}
+
+
+.translucent-black-background>h1 span,
+.container-div-h1>span
+{
+color:#FFC601;
+font-size:1.2em;
+text-shadow:2px 2px black;
+}
+
+body
+{
+  font-family:'lato' , sans-serif;
+  
+}
+a
+{
+  text-decoration:none;
+}
+
+
+
+img
+{
+  width:100%;
+  
+  margin-top:10px;
+  
+  max-width:100%;/*instructs to fill parent container*/
+
+}
+
+
+#navigation
+  {
+    padding-left:0;
+    text-align:center;
+    width:100;
+    display:none;
+  } 
+
+.large
+{
+  
+  font-weight:normal;
+  color:#000;
+  margin:0;
+}
+
+#overlay{
+  width:100%;
+  background:rgba(0,0,0,0.7);
+  display:none;
+  position:fixed;
+  height:100%;
+  top:0;
+  bottom:0;
+  text-align:center;
+  z-index:150;
+  overflow-y:scroll;
+ }
+
+ 
+
+/******************
+HEADER
+******************/
+
+
+#logo
+{
+  color:#fff;/**/
+  margin:0;
+  padding:5px 10px;
+  text-align:center;
+  font-weight:normal;
+  text-shadow:1px 1px 1px #000;
+  
+}
+
+header a:hover,
+
+{
+  color:blue;
+}
+
+header a ,header a:visited{
+color:#fff;
+}
+
+.header-background-box{
+  background-color:#07294d;
+  width:420px;
+  height:80px;
+  text-align:center;
+  
+}
+
+/******************
+NAVIGATION
+*******************/
+
+nav
+{
+  margin:0;
+  padding:1px;
+}
+
+
+
+/********************
+PAGE INDEX.HTML
+**********************/
+
+
+.layout{
+width:90%;
+margin:auto;
+text-align:center;
+}
+
+.body-icons
+{
+  margin-top:20px;
+  margin-bottom:20px;
+width:51.739px;
+    height:51.739px;
+ 
+}
+
+.separator
+{
+margin-top:20px;
+margin-bottom:20px;
+background:tomato;
+height:2px;
+}
+
+.txt3
+{
+font: 300 24px/37px 'Open Sans', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight:normal;
+  font-stretch: normal;
+  line-height: 37px;
+  color: #4a4a4a;
+  margin-top: 25px;
+  text-align:left;
+  
+
+}
+
+.container-div{
+  
+  background-color:#07294d;
+  text-align:center;
+  overflow:hidden;
+  margin-top:10%;
+  display:block;
+}
+
+.box{
+/*
+  width:100%;
+*/
+  height:250px;
+  text-align:center;
+  background-color:#07294d;
+  display:inline-block;
+  padding:10px 10px 0 10px;
+  margin:0;
+  width:100%;
+  margin-bottom:-10px
+ 
+/*
+  margin-left:10%;
+  margin-right:10%;
+*/
+  
+ }
+
+.container-div-h1{
+  margin-bottom:5%;
+  padding-bottom:5%;
+  padding-top:5%;
+  font-size:2.5em;
+  font-weight:light;
+  color:#fff;}
+
+header
+{ text-align:center;}
+  
+header h5{
+  display:inline-block;
+  padding:10px 10px;
+  margin-left:10px;
+  margin:0;
+  letter-spacing:0.5px;
+/*font-size:1.25rem;*/
+}
+
+
+
+
+
+
+/**************************
+RATING.HTML
+****************************/
+.continue-btn{
+  margin-top:50px;
+}
+
+
+
+
+/**************************
+COLLEGE PAGE
+****************************/
+
+.college-image{
+  width:100%;
+  height:50%;
+  
+ }
+
+.round-wrapper{
+  display:inline-block; 
+  margin:2px;
+  width:100px;
+  height:128px;
+  text-align:center;
+}
+
+.round
+{
+  color:#4a4a4a;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  display:inline-block;
+  text-align:center; 
+  font-size:1.5em;
+  margin:2%;
+  margin-top:10px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1);
+}
+
+
+.layout-2
+{
+  width:90%;
+  margin:auto;
+  text-align:center;
+  color:darkslategrey;
+}
+
+.background-box h1
+{
+  margin-top:20px;
+}
+
+.background-box
+{
+  background-color:white;
+  width:100%;
+  height:100%;
+  display:block;
+  box-shadow:2px 2px 5px darkgrey;
+  clear:both;
+  overflow-y:hidden;
+  margin-top:50px;
+  text-align:left;
+  padding-left:2%;
+  padding-right:2%;
+  border-radius:5px;
+  margin-bottom:50px;
+  border:1px solid lightgrey;
+}
+
+.round h1{margin-top:2px; 
+  display:block;
+text-shadow:1px 1px 2px black;}
+
+
+/**************************
+PAGE SIGN-UP
+****************************/
+
+
+.sign-up-form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  color:darkslategrey;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+.round-wrapper h1{font-size:1.8em;}
+/*
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+*/
+textarea,
+.form-box,
+select
+{
+  background: rgba(255,255,255,0.1);
+  border: 2px solid #2c3e50;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color:#F0F1F4;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+textarea:focus,
+.form-box:focus,
+select:focus{
+  background-color:#fff;
+ }
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #000;
+  background-color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #ff7302;
+  border-width: 2px 2px 4px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+  clear:left;
+}
+
+button>a{
+  padding:20px 20px; 
+  color:#000;
+}
+
+button:hover{
+  background-color:#ff7302;
+  color:#fff;
+  transition: background-color linear 0.25s;
+  box-shadow: 0 0 10px #000;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1em;
+  margin-bottom: 20px;
+margin-top:20px;}
+
+.large-legend{font-size:1.4em;}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  text-align:left;
+  font-size:1rem;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #2c3e50;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+.cross{
+  position:absolute;
+  top:0;
+  right:0;
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  background-color:#ff7302;
+  border:2px solid darkslategrey;
+  padding:0;
+}
+
+.cross:hover{
+  background-color:red;
+  box-shadow:0 0 5px black;
+}
+/**************************
+PAGE STUDENT-RATE
+****************************/
+
+
+
+
+.bar>legend {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 30px 0 30px 10px;
+  text-align:left;
+}
+
+
+
+.background{
+
+    width:100%;
+  height:400px;
+  background-image: url('../img/bits.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.background2{
+
+    width:100%;
+  height:400px;
+  background-image: url('../img/bits2.jpg');
+  background-repeat:no-repeat;
+  background-position:85% 50%;;
+  background-size:cover;
+}
+  
+  .background h1, .background2 h1{
+  display:inline-block;
+  margin:250px 20px 0;   
+  background-color:rgba(0,0,0, 0.7); 
+  padding:20px 20px; color:#fff;
+}
+
+   
+
+
+/**************************
+COLLEGE PAGE
+****************************/
+
+
+
+  .meet-btn, 
+  .add-btn,
+  .ind-rev-btn,
+  .apply-btn {
+  width:300px;
+  background:inherit;
+  color:black;
+  font-size:1.25em;
+  
+} 
+
+
+.inline-small-boxes{
+  background:#454545;
+  border-top:7.5px solid #FFC600;
+  min-height:300px;
+  margin:20px 1.667%;
+  text-align:center;
+  color:white;
+}
+
+
+
+
+
+/**************************
+ABOUT US
+****************************/
+
+.left{
+  text-align:left;
+  
+}
+
+/**************************
+COMPARISON
+****************************/
+
+
+
+table {
+  width: 90%;
+   max-width: 960px;
+  margin:10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+thead th {
+  background: #8a97a0;
+  color: #FFF;
+  
+}
+
+tbody th{
+  font-weight:bold;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+
+
+/**************************
+STUDENTS HOME
+****************************/
+
+  .layout3 , .layout-2{  width:100%; margin:auto;}
+
+.layout3:after ,
+.list-tabs:after{
+  content:"";
+  display:table;
+  clear:both;
+ 
+  }
+
+.list-tabs{
+  width:100%;
+  height:100%;
+  border:1px solid darkgrey;
+  border-bottom:none;
+  padding:10px;
+  
+}
+
+.list-tabs>h3{
+  float:left;
+  display:inline-block;
+}
+
+
+
+.img-container{
+  height:40px;
+  width:100%;
+  position:relative;
+}
+
+.nav-icons{
+  position:absolute;
+  margin:0;
+  top:50%;
+ bottom:50%;
+  right:10px;
+  width:10px;
+  height:10px;
+}
+  
+ .list-tabs:nth-child(3){
+    border-bottom:1px solid darkgrey;
+}
+
+
+/**************************
+STUDENT PROFILE
+****************************/
+
+.layout4{
+  width:100%;
+  text-align:center;
+  padding-top:20px;
+}
+
+/**************************
+COLORS
+****************************/
+
+
+.box:hover , 
+.box:focus{
+  background-color:#FFC600;
+  transition:background-color linear 0.25s;
+}
+
+ a , a:visited{
+color:#fff;
+}
+
+.add-btn>a{
+    color:black;
+  }
+
+
+p, {color:#4a4a4a;}
+
+
+
+body
+{
+  background:#f6f6f6;;
+  
+}
+
+ header
+
+{
+  background:#07294d;/*cyan header*/
+ /* border-color:#566a68;/*grey border*/
+  color:#fff;
+}
+
+
+/*nav background on mobile devices*/
+nav
+{
+  background:#FFC601;
+  color:#000;
+  
+}
+
+/*logo text*/
+
+/*nav link background*/
+nav a, nav a:visited
+{
+  color:#000;
+}
+
+/*selected nav list item*/
+nav a.selected , nav a:hover , nav a:focus
+{
+  color:white;
+ /*any anchor in nav which has selected class applied to it will get these atributes*/
+/*hover is a pseudoclass which highlights the tab when hovered over*/
+}
+
+
+nav a .list-tabs:hover{
+  color:#FFC601;
+}
+
+/*--- college page--*/
+
+.yellow-round{  background: radial-gradient(rgba(253,208,23, 0.8), rgba(253,208,23,0.8) );
+/*   border:2px solid  rgb(253,208,23);*/
+  color:white;
+
+}
+
+.green-round{  background: radial-gradient(rgba(65,163,23,0.8), rgba(65,163,23,0.8) );
+/*  border:2px solid  rgb(65,163,23);*/
+    color:white;
+
+}
+
+.blue-round{  background: radial-gradient(rgba(114, 143, 206,0.8), rgba(114, 143, 206,0.8)); 
+/*    border:2px solid  rgb(114, 143, 206);*/
+  color:white;
+
+}
+
+.red-round{  background: radial-gradient(rgba(228,34,23,0.8), rgba(228,34,23,0.8) ); 
+/*    border:2px solid  rgb(228,34,23);*/
+    color:white;
+
+
+}
+
+
+.background-box>a{
+  color: rgb(48, 155, 215);
+  font-weight:bold;
+  text-decoration:underline;
+  font-size:1.125em;
+}
+
+.background-box>a:hover {
+  color:#2c3e50;}
+
+.background-box a>h1{
+  color:initial;
+  text-decoration:none;
+  
+}
+
+
+/***************
+SEARCHBOX
+****************/
+
+
+<!-- CSS styles for standard search box -->
+
+	#tfheader{
+		background-color:#c3dfef;
+
+ 
+	}
+
+#tfnewsearch
+{
+  background-color:#FFC600; 
+  float:right;
+  padding:5px;
+}
+
+	.tftextinput{
+    display:inline-block;
+		margin: 0;
+		padding: 0px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+    width:170px;
+   height:31px;
+	}
+	.tfbutton {
+    display:inline-block;
+		margin-top:-50px;
+  margin-left:-4px;
+		padding: 5px 15px ;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:100%;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+    font-size:1rem;
+		color: #ffffff;
+		border: solid 1px #07294d; border-right:0px;
+		background: #07294d;
+/*
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+*/
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+.alert{
+  color:red;
+}

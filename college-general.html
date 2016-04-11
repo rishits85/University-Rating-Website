@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8"> 
+    <title>UniversityInspector.com</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--below is google fonts link. will be referenced in main.css so placed above it here-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <!--if we dont add this desktop layout rendered on mobile devices. this meta tag specifies that value of viewport should be set value of content attribute. content attribute says that the width should be scaled to the the width of mobile screen. Initial scale other than 1.0 will make it larger or smaller than required -->
+   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+ </head>
+ 
+ <body>
+   <header>
+    <h1 id="logo"><a href="index.html">UniversityInspector</a></h1>
+    <div class="topcorner">
+       <h5><a href="sign-in.html" class="overlayLink" data-action="sign-in.html">Sign in</a></h5>
+       <h5><a href="sign-up.html" class="overlayLink" data-action="sign-up.html">Sign up</a></h5>
+    </div>     
+   
+   <nav class=" nav">  
+     <ul id="navigation" style="" class="active">
+        <li style=""><a href="rating.html" style=""><h3 style="">REVIEW YOUR COLLEGE</h3></a></li>
+        <li style=""><a href="college-general.html" class="selected"><h3>SEE COLLEGES</h3></a></li>
+        <li style=""><a href="about-us.html" style=""><h3 style="">ABOUT US</h3></a></li>
+        <li style=""><a href="college-general.html" style=""><h3 style="">CONTACT US</h3></a></li>
+       
+  
+      </ul>
+      
+  <!--
+       <div id="sb-search" class="sb-search">
+    <form>
+      <input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
+      <input class="sb-search-submit" type="submit" value="">
+      <span class="sb-icon-search"></span>
+    </form>
+  </div>
+  
+  
+  -->
+         <!-- HTML for SEARCH BAR -->
+    
+        
+       <form id="tfnewsearch" method="get" action="http://port-80-974of3kn7i.treehouse-app.com" >
+          <select class="tftextinput" name="q"  maxlength="120">  <option value="select one">Search College</option>
+        <option value="bits-edu-campus-Varnama" id="bits">Bits edu campus Varnama</option>
+        <option value="parul-institute">Parul institute </option>
+        <option value="Ininfd-vadodara">Inifd vadodara </option>
+        <option value="Itm">Itm </option>
+        </select>
+         <input type="submit" value="search" class="tfbutton">
+      </form>
+    <div class="tfclear"></div>
+ </nav>
+ </header>
+   
+   <img src="img/1.jpg">
+  
+   <div class="layout-2">
+     <img src="img/icon-5.png" class="body-icons">
+     <h1 class="large">University Listings</h1>
+     <div class="separator" style="width:90%; margin-left:5%;"></div>
+   </div>
+   <div class="layout-2">
+     <div class="background-box">
+      <a href="college-page.html" style="display:inline-block; color:black; text-decoration:none;"><h1 class="large" style="color:black;"> Bits edu campus varnama</h1></a>   
+<a href="comparison.html"><button class="add-to-compare-btn secondary" style="display:inline-block; width:270px;">Add to Compare</button> </a>
+
+<!--
+        <button class="tfbutton" id="secondary">Add to compare</button> cutomise and add this lateruyt0
+-->
+       
+        <p style="padding:0; color:darkslategrey; margin-bottom:50px;">1=Low/Poor 10=High/Excellent<p>
+       <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Education</h5><div class="round green-round" ><h1 >9</h1></div> </div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Infrastructure</h5><div class="round blue-round"><h1>7</h1></div></div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Canteen</h5><div class="round yellow-round"><h1>5</h1></div></div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Faculties</h5><div class="round red-round"><h1>3</h1></div></div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Activities</h5><div class="round green-round" ><h1 >9</h1></div></div> 
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Placements</h5><div class="round blue-round"><h1>7</h1></div></div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Facilities</h5><div class="round yellow-round"><h1>5</h1></div></div>
+      <div class="round-wrapper"><h5 style="color:darkslategrey; font-size:1.1rem;">Management</h5><div class="round red-round"><h1>3</h1></div></div>
+        <a href=""><h3>View all ratings by students</h3></a>
+     </div>
+   </div>  
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script> 
+   </body>
+  </html>
+

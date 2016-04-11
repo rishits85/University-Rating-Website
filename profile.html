@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8"> 
+    <title>UniversityInspector.com</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--below is google fonts link. will be referenced in main.css so placed above it here-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <!--if we dont add this desktop layout rendered on mobile devices. this meta tag specifies that value of viewport should be set value of content attribute. content attribute says that the width should be scaled to the the width of mobile screen. Initial scale other than 1.0 will make it larger or smaller than required -->
+   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+ </head>
+ <body>
+   <div>
+   <header>
+    <h1 id="logo"><a href="index.html">UniversityInspector</a></h1>
+    <div class="topcorner">
+       <h5><a href="sign-in.html" class="overlayLink" data-action="sign-in.html">Sign in</a></h5>
+       <h5><a href="sign-up.html" class="overlayLink" data-action="sign-up.html">Sign up</a></h5>
+    </div>   
+      <nav class=" nav">  
+       <ul id="navigation" style="" class="active">
+          <li style=""><a href="rating.html" style=""><h3 style="">REVIEW YOUR COLLEGE</h3></a></li>
+          <li style=""><a href="college-general.html" style=""><h3 style="">SEE COLLEGES</h3></a></li>
+          <li style=""><a href="about-us.html"><h3 style="">ABOUT US</h3></a></li>
+          <li style=""><a href="college-general.html" style=""><h3 style="">CONTACT US</h3></a></li>
+       </ul>
+      
+  <!--
+       <div id="sb-search" class="sb-search">
+    <form>
+      <input class="sb-search-input" placeholder="Enter your search term..." type="search" value="" name="search" id="search">
+      <input class="sb-search-submit" type="submit" value="">
+      <span class="sb-icon-search"></span>
+    </form>
+  </div>
+  
+  
+  -->
+         <!-- HTML for SEARCH BAR -->
+    
+        
+       <form id="tfnewsearch" method="get" action="http://port-80-974of3kn7i.treehouse-app.com" >
+          <select class="tftextinput" name="q"  maxlength="120">  <option value="select one">Search College</option>
+        <option value="bits-edu-campus-Varnama" id="bits">Bits edu campus Varnama</option>
+        <option value="parul-institute">Parul institute </option>
+        <option value="Ininfd-vadodara">Inifd vadodara </option>
+        <option value="Itm">Itm </option>
+        </select>
+         <input type="submit" value="search" class="tfbutton">
+      </form>
+    <div class="tfclear"></div>
+ </nav>
+</header>
+ </div>
+ <div class="layout4">
+       <h1 class="large">Profile</h1>
+       <img src = "img/empty-profile.jpg" class="top-margin" style="width:200px; height:200px; ">
+       <div class="change-picture-slide" style="top: 30px;">
+        <input accept="image/*" type="file" id="upload" name="upload" style="visibility: hidden; width: 1px; height: 1px">
+        <a href="" onclick="changePicture(); return false" style="color:blue" class="txt3">Change Picture</a>
+       </div>
+       <h1>Welcome Name</h1>
+       <h3>Edit profile</h3>
+     <div class="secondary" style="background:lightyellow; padding:10px; margin-top:70px;">
+      <h1>Want to be a representative?</h1>
+      <h2 style="padding-left:30px; text-align:left;">Advantages:</h2>
+       <ul class="txt3">
+        <li>Money paid per session</li>
+        <li>Chance to be a part of us</li>
+        <li>internships</li>
+       </ul>
+       <button type="button" class="apply-btn">Apply now</button>
+     </div>  
+    
+  <form class="sign-up-form primary" action="sign-in.html" method="post">
+   <fieldset>
+    
+    <legend class="large-legend"><span class="number">1</span> Your Basic Info</legend>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" class="form-box">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email" class="form-box">
+    <label for="email">Password</label>
+    <input type="email" id="email" name="user_email" class="form-box">
+    <label for="email">College</label>
+    <input type="email" id="email" name="user_email" class="form-box">
+    <label for="email">Status</label>
+    <input type="email" id="email" name="user_email" class="form-box">
+    </fieldset>
+  </form>
+   <a href = "student-home.html"><p class="txt3" style="text-align:center; color:blue">Back to home</p></a>
+   </div>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script> 
+ </body>
+</html>
